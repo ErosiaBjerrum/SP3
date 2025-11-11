@@ -21,10 +21,9 @@ public class Main {
             ));
         }
 
-        // code for testing oioighghh
-        for (Movie m : movies) {
-            System.out.println(m);
-        }
+        StreamingService netflix = new StreamingService(movies);
+
+        netflix.printAllMovies();
 
 
         /* Code for later when implementing menus

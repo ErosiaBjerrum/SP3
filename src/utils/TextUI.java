@@ -7,7 +7,7 @@ public class TextUI {
 
     private static Scanner sc = new Scanner(System.in);
 
-    /* Let the user choose a number of integers bound by limit  */
+
     public ArrayList<String> promptChoice(ArrayList<String> options, int limit, String msg) {
         displayMsg(msg);
         displayList(options, "");
