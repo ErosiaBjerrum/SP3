@@ -4,7 +4,7 @@ public class Movie {
     final private String genre;
     final private double rating;
 
-    // Constructor
+    // Constructor starts
     public Movie(String title, int releaseYear, String genre, double rating) {
         this.genre = genre;
         this.title = title;
