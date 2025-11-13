@@ -1,12 +1,19 @@
-public class User {
-    String name;
-    String password;
 
-    public User(String name){
-        this.name = name;
+
+
+public class User {
+    private String userName;
+
+    // constructor
+    public User(String userName) {
+        this.userName = userName;
     } // ends constructor
 
 
+    // getter
+    public String getUserName() {
+        return userName;
+    } // ends getter
 
 
 } // ends class
